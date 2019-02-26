@@ -119,8 +119,8 @@
         #indhold {
             box-sizing: border-box;
             background-color: rgb(242, 233, 237);
-            width: 73vw;
-            height: 90vw;
+            width: 40vw;
+            height: 80vw;
             margin: auto;
             text-align: center;
             position: static;
@@ -138,7 +138,8 @@
             font-size: 1em;
             z-index: 1;
             background: #EDCDC4;
-            height: 6vw
+            height: 6vw;
+            z-index: 1;
         }
 
         .top {
@@ -157,7 +158,7 @@
             position: absolute;
             top: 2vw;
             left: 13.5vw;
-            z-index: 2;
+            z-index: 3;
         }
 
         #tree {
@@ -201,6 +202,55 @@
             padding: 20px;
         }
 
+        @media only screen and (max-width:681px) {
+
+            .content {
+
+
+
+                margin-left: 45px;
+                margin-right: 45px;
+                padding: 20px;
+            }
+        }
+
+
+
+
+        .kontakt {
+            background: rgba(237, 205, 196, 0.5);
+
+            margin-top: 20px;
+            margin-left: 120px;
+            margin-right: 120px;
+            padding: 20px;
+
+        }
+
+
+        @media only screen and (max-width:681px) {
+
+            .kontakt {
+
+
+
+                margin-left: 45px;
+                margin-right: 45px;
+                padding: 20px;
+            }
+        }
+
+
+        @media only screen and (max-width:681px) {
+
+            h1 {
+
+
+
+                font-size: 4vw;
+            }
+        }
+
     </style>
 
 
@@ -236,4 +286,9 @@
 
         <h1>Velkommen</h1>
         <p> Hej og velkommen til S'il vous plâit. <br> Vi er en fransk café som servere de lækreste delikatesser fra Frankrig. Cafeen åbnede i 2009 og har haft stor succes, fra start af. Vores priser er nemlig til at overskue og så laver vi nok byens bedste croissanter, de er ihvertfald altid friskbagte. Vi ville elske at byde dig velkommen til vores hyggelige café på Vesterbro. Så kom forbi hvis du har lyst til en oste tallerken, en macaron eller en kop kaffe. Du kan også tjekke vores menukort ud her på siden og se om der er noget du skulle have lyst til. <br> Vi glæder os til at servere for dig, god dag :) </p>
+    </div>
+
+    <div class="kontakt">
+        <h4>Kontakt:</h4>
+        <p>Adresse: Vesterbrogade 34<br>Telefon nummer: 34761976 <br> E-mail: Silvousplait@hotmail.com </p>
     </div>
